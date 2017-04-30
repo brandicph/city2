@@ -1,0 +1,32 @@
+{
+  "name": "amaibotto",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-mongoose-docs": "^0.3.1",
+    "gridfs-stream": "^1.1.1",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^5.7.0",
+    "mongoose": "^4.4.5",
+    "morgan": "^1.7.0",
+    "node-gyp": "^3.4.0",
+    "normalize-scss": "^6.0.0",
+    "request": "^2.75.0",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bower-concat": "^1.0.0",
+    "grunt-bower-requirejs": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-nodemon": "^0.4.2",
+    "grunt-sass": "^1.2.1",
+    "node-sass": "^3.10.1"
+  }
+}
